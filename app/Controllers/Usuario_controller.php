@@ -42,7 +42,8 @@ class Usuario_controller extends Controller {
                 'pass' => password_hash($this->request->getVar('pass'), PASSWORD_DEFAULT),
             ]);
             session()->setFlashdata('success', 'Usuario registrado correctamente');
-            return $this->response->redirect('/login');
+            //return $this->response->redirect()->to(base_url('/login'));
+            return redirect()->to(base_url('/login'));
     }
 
 }

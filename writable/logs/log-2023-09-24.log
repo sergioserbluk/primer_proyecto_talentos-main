@@ -1,0 +1,21 @@
+CRITICAL - 2023-09-24 19:08:07 --> Too few arguments to function CodeIgniter\HTTP\Response::redirect(), 0 passed in C:\xampp\htdocs\primer_proyecto_talentos-main\app\Controllers\Usuario_controller.php on line 45 and at least 1 expected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 504.
+ 1 APPPATH\Controllers\Usuario_controller.php(45): CodeIgniter\HTTP\Response->redirect()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario_controller->formValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 19:10:26 --> Too few arguments to function CodeIgniter\HTTP\Response::redirect(), 0 passed in C:\xampp\htdocs\primer_proyecto_talentos-main\app\Controllers\Usuario_controller.php on line 45 and at least 1 expected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 504.
+ 1 APPPATH\Controllers\Usuario_controller.php(45): CodeIgniter\HTTP\Response->redirect()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario_controller->formValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 19:11:57 --> Too few arguments to function CodeIgniter\HTTP\Response::redirect(), 0 passed in C:\xampp\htdocs\primer_proyecto_talentos-main\app\Controllers\Usuario_controller.php on line 45 and at least 1 expected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 504.
+ 1 APPPATH\Controllers\Usuario_controller.php(45): CodeIgniter\HTTP\Response->redirect()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario_controller->formValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
